@@ -1,0 +1,12 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Monthly Report",
+    "body": "Please send your salary details to hr@example.com."
+  },
+  {
+    "id": "email_002",
+    "subject": "Confidential Info",
+    "body": "This is confidential and for internal use only. Contact 9876543210."
+  }
+]
