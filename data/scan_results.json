@@ -1,0 +1,37 @@
+[
+    {
+        "scanId": "cf5d6f6b-7500-421f-a94c-70a477117d3e",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "f6fbff59-8d3f-476b-9654-1833fc589232",
+        "emailId": "email_002",
+        "subject": "Confidential Info",
+        "flags": [
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "confidential"
+            },
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "internal use only"
+            },
+            {
+                "sentence": "Contact 9876543210",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "9876543210"
+            }
+        ]
+    }
+]
