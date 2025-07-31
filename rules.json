@@ -1,0 +1,8 @@
+{
+  "forbidden_terms": ["confidential", "salary", "password", "internal use only"],
+  "pii_patterns": {
+    "email": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+    "phone": "\\b\\d{10}\\b",
+    "ssn": "\\b\\d{3}-\\d{2}-\\d{4}\\b"
+  }
+}
