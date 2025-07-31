@@ -103,4 +103,6 @@ Screenshots of app for your refernce Added (Screenshots Folder).
 
 ## Author:
 
-Rupak C. Jogi – Applied for AI/ML Intern
+__Rupak C. Jogi__
+
+_Data Scientist & Analyst | AI/ML | Deep Learning Enthusiast_
